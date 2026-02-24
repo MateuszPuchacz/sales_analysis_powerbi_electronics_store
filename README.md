@@ -10,9 +10,13 @@ Rather than focusing purely on visuals, the report was structured to answer key 
 The dataset used in this project was simulated for educational and portfolio purposes.  
 It does not represent real company data.
 
+## Tools & Technologies
 
 **Excel**  
 Dataset preparation, data cleaning, structuring, and validation before import into the BI environment.
 
 **Power BI**  
 Data modeling (relationships, star schema structure), DAX measure development, KPI calculations, and interactive dashboard design to support business analysis.
+
+**AI Assisted Design (ChatGPT)**  
+Generated visual branding assets (logo) for portfolio presentation purposes.

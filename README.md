@@ -10,6 +10,38 @@ Rather than focusing purely on visuals, the report was structured to answer key 
 The dataset used in this project was simulated for educational and portfolio purposes.  
 It does not represent real company data.
 
+The dataset consists of two primary tables: a transactional sales table and a product dimension table. It was synthetically generated to simulate a retail electronics sales environment.
+
+### Sales (Fact Table)
+
+Contains transaction-level sales records.  
+Each row represents a single order.
+
+Key fields:
+- Order Number – unique transaction identifier  
+- Sales Date – transaction date  
+- Sales Channel – distribution channel (Online, In-Store, Wholesale)  
+- Productindex – product reference key  
+- Order qty – quantity sold  
+- Unit price – selling price per unit  
+- Unit cost – cost per unit  
+- Sales – total revenue per transaction  
+
+This table serves as the analytical core for revenue, cost, and profitability calculations.
+
+---
+
+### Products (Dimension Table)
+
+Contains descriptive information about products.
+
+Key fields:
+- Index – product identifier  
+- Product Name – product description  
+- Product Category – product classification  
+
+This table enables categorical analysis and segmentation of sales performance.
+
 ## 🛠 Tools & Technologies
 
 **Excel**  
@@ -20,3 +52,5 @@ Data modeling (relationships, star schema structure), DAX measure development, K
 
 **AI Assisted Design (ChatGPT)**  
 Generated visual branding assets (logo) for portfolio presentation purposes.
+
+

@@ -11,3 +11,8 @@ The dataset used in this project was simulated for educational and portfolio pur
 It does not represent real company data.
 
 
+**Excel**  
+Dataset preparation, data cleaning, structuring, and validation before import into the BI environment.
+
+**Power BI**  
+Data modeling (relationships, star schema structure), DAX measure development, KPI calculations, and interactive dashboard design to support business analysis.

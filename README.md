@@ -160,7 +160,7 @@ VAR Result = IF([Sales_YoY%]>0, PositiveIcon, NegativeIcon)
 Sales_Icon_Color = IF([Sales_YoY%] > 0, "Green", "Red")
 ```
 
-## 📊Exploratory Business Analysis (Power BI)
+## 📊 Exploratory Business Analysis (Power BI)
 
 The visualization was conducted directly in Power BI using interactive dashboards.
 The goal was to identify revenue patterns, profitability drivers, regional performance, and channel efficiency.
@@ -204,7 +204,7 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 - Online channel generates the highest revenue share.
 - Profit distribution mirrors channel revenue structure, confirming consistent margin behavior.
 
-📝 ##Business Insights & Conclusions
+## 📝 Business Insights & Conclusions
 
 
 - The analysis shows a consistently growing and structurally stable business model.
@@ -222,7 +222,7 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 - Reassess promotional efficiency to improve ROI.
 - Capitalize on Q4 seasonality with targeted campaigns.
 
-💼 ##Business Recommendations
+## 💼 Business Recommendations
 
 - Increase investment in online channel expansion.
 - Optimize promotional strategy (low relative contribution).

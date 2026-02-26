@@ -243,7 +243,7 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 - Reassess promotional efficiency to improve ROI.
 - Capitalize on Q4 seasonality with targeted campaigns.
 
-##💼 Business Recommendations
+## 💼 Business Recommendations
 
 - Increase investment in online channel expansion.
 - Optimize promotional strategy (low relative contribution).

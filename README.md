@@ -56,7 +56,7 @@ Generated visual branding assets (logo) for portfolio presentation purposes.
 
 ### Data Preparation & Modeling
 
-**1. Excel – Data Quality Checks
+**1. Excel – Data Quality Checks**
 
 Before importing the dataset into Power BI, a preliminary data quality check was performed in Excel to ensure consistency and reliability.
 

@@ -54,7 +54,7 @@ Data modeling (relationships, star schema structure), DAX measure development, K
 Generated visual branding assets (logo) for portfolio presentation purposes.
 
 
-### Data Preparation & Modeling
+## Data Preparation & Modeling
 
 **Excel – Data Quality Checks**
 

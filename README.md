@@ -71,7 +71,7 @@ Data type verification:
 - Logical consistency validation (e.g., no negative quantities or unrealistic values).
 - The objective was to ensure clean, structured input data before building the analytical model in Power BI.
 
-**2.Power BI – Date Table Creation (Time Intelligence Foundation)**
+**2. Power BI – Date Table Creation (Time Intelligence Foundation)**
 
 A dedicated Date Table was created to:
 
@@ -96,7 +96,7 @@ DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
 "DayName", FORMAT([Date], "dddd"))
 ```
 
-**3.Core Measures – Sales, Profit & Year-over-Year Analysis**
+**3. Core Measures – Sales, Profit & Year-over-Year Analysis**
 
 The following DAX measures were created to calculate key performance indicators.
 Base Measures

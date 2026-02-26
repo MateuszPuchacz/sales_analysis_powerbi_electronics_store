@@ -160,7 +160,7 @@ VAR Result = IF([Sales_YoY%]>0, PositiveIcon, NegativeIcon)
 Sales_Icon_Color = IF([Sales_YoY%] > 0, "Green", "Red")
 ```
 
-##📊Exploratory Business Analysis (Power BI)
+## 📊Exploratory Business Analysis (Power BI)
 
 The visualization was conducted directly in Power BI using interactive dashboards.
 The goal was to identify revenue patterns, profitability drivers, regional performance, and channel efficiency.

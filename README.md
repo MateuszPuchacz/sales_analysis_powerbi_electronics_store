@@ -173,6 +173,9 @@ Sales_Icon_Color = IF([Sales_YoY%] > 0, "Green", "Red")
 
 ## 🔗 ER Diagram
 
+The data model follows a Star Schema architecture, designed to ensure scalability, clarity, and optimized performance within Power BI.
+At the center of the model is the SalesData fact table, connected to multiple dimension tables through one to many relationships.
+
 ![ER_Diagram](./images/ER_Diagram.png)
 
 

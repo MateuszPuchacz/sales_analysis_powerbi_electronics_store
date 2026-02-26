@@ -56,7 +56,7 @@ Generated visual branding assets (logo) for portfolio presentation purposes.
 
 ### Data Preparation & Modeling
 
-** Excel – Data Quality Checks**
+**Excel – Data Quality Checks**
 
 Before importing the dataset into Power BI, a preliminary data quality check was performed in Excel to ensure consistency and reliability.
 The following validations were completed:
@@ -71,7 +71,7 @@ Data type verification:
 - Logical consistency validation (e.g., no negative quantities or unrealistic values).
 - The objective was to ensure clean, structured input data before building the analytical model in Power BI.
 
-** Power BI – Date Table Creation (Time Intelligence Foundation)**
+**Power BI – Date Table Creation (Time Intelligence Foundation)**
 
 A dedicated Date Table was created to:
 
@@ -96,7 +96,7 @@ DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
 "DayName", FORMAT([Date], "dddd"))
 ```
 
-** Core Measures – Sales, Profit & Year-over-Year Analysis**
+**Core Measures – Sales, Profit & Year-over-Year Analysis**
 
 The following DAX measures were created to calculate key performance indicators.
 Base Measures
@@ -124,7 +124,7 @@ RETURN
 ```
 
 
-** Conditional Formatting – KPI Visual Indicators**
+**Conditional Formatting – KPI Visual Indicators**
 
 To enhance dashboard readability and executive interpretation, visual indicators were added.
 These measures dynamically display visual cues (▲ / ▼ and green/red color), allowing users to instantly understand performance direction.

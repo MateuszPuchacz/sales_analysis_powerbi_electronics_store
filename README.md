@@ -82,7 +82,9 @@ A dedicated Date Table was created to:
 
 DAX – Date Table
 
--DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
+</> DAX
+
+DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
 "Year", YEAR([DATE]),
 "Quarter", FORMAT([Date], "\QQ"),
 "Month", FORMAT([Date], "mmm"),

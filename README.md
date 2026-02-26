@@ -82,7 +82,7 @@ A dedicated Date Table was created to:
 
 DAX – Date Table
 
-DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
+-DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
 "Year", YEAR([DATE]),
 "Quarter", FORMAT([Date], "\QQ"),
 "Month", FORMAT([Date], "mmm"),
@@ -98,18 +98,17 @@ This table acts as the central time dimension for the data model and enables Pow
 The following DAX measures were created to calculate key performance indicators.
 Base Measures
 
-Total Profit = SUM(SalesData[Sales]) - SUM(SalesData[Cost])
-Total Sales = SUM(SalesData[Sales])
+-Total Profit = SUM(SalesData[Sales]) - SUM(SalesData[Cost])
+-Total Sales = SUM(SalesData[Sales])
 These measures retrieve the previous year's values dynamically based on the current filter context.
 
-Year-over-Year Growth (%)
+-Year-over-Year Growth (%)
 Profit_YoY% = 
 VAR __PREV_YEAR = CALCULATE([Total Profit], DATEADD('DATES'[Date], -1, YEAR))
 
 RETURN
 	DIVIDE([Total Profit] - __PREV_YEAR, __PREV_YEAR)
-
-  Sales_YoY% = 
+-Sales_YoY% = 
 VAR __PREV_YEAR = CALCULATE([Total Sales], DATEADD('DATES'[Date], -1, YEAR))
 RETURN
 	DIVIDE([Total Sales] - __PREV_YEAR, __PREV_YEAR)

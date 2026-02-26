@@ -185,6 +185,7 @@ The visualization was conducted directly in Power BI using interactive dashboard
 The goal was to identify revenue patterns, profitability drivers, regional performance, and channel efficiency.
 
 
+
 🧾 Page 1 – Sales Overview
 
 ![Dashboard Page 1](./images/Dashboard_page1.png)
@@ -205,6 +206,7 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 - October and November show peak seasonal performance.
 - A small number of products drive a disproportionate share of total revenue.
 - Computers and Cameras represent the dominant product categories.
+
 
 🌍 Page 2 – Regional & Channel Analysis
 

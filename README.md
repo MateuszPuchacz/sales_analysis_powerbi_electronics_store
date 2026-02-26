@@ -169,6 +169,12 @@ VAR Result = IF([Sales_YoY%]>0, PositiveIcon, NegativeIcon)
 Sales_Icon_Color = IF([Sales_YoY%] > 0, "Green", "Red")
 ```
 
+
+## 🔗 ER Diagram
+
+![ER_Diagram](./images/ER_Diagram.png)
+
+
 ## 📊 Exploratory Business Analysis (Power BI)
 
 The visualization was conducted directly in Power BI using interactive dashboards.

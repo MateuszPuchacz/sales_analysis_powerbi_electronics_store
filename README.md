@@ -78,7 +78,7 @@ Data type verification:
 - Numeric fields (Sales, Cost, Unit Price) as Decimal Number
 - Quantities as Whole Number
 - Identifiers (Order Number) as Text
-- Logical consistency validation (e.g., no negative quantities or unrealistic values).
+- Logical consistency validation (no negative quantities or unrealistic values).
 - The objective was to ensure clean, structured input data before building the analytical model in Power BI.
 
 **Power BI – Date Table Creation (Time Intelligence Foundation)**
@@ -243,7 +243,7 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 - Reassess promotional efficiency to improve ROI.
 - Capitalize on Q4 seasonality with targeted campaigns.
 
-## 💼 Business Recommendations
+##💼 Business Recommendations
 
 - Increase investment in online channel expansion.
 - Optimize promotional strategy (low relative contribution).

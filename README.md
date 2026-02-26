@@ -185,7 +185,7 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 - Year-over-Year growth comparison
 - Monthly revenue trend
 - Weekly sales distribution
-- Top-performing products
+- Top performing products
 - Brand and category contribution
 
 💡 Key Insights
@@ -208,7 +208,7 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 
 💡 Key Insights
 
-- Sales concentration is geographically clustered in high-density states.
+- Sales concentration is geographically clustered in high density states.
 - Regular Sales significantly outperform promotional campaigns.
 - Online channel generates the highest revenue share.
 - Profit distribution mirrors channel revenue structure, confirming consistent margin behavior.
@@ -219,13 +219,13 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 - The analysis shows a consistently growing and structurally stable business model.
 - Revenue reached 23.8M, reflecting a strong 39% Year-over-Year growth.
 - Profit growth remains proportional to revenue expansion, indicating stable and controlled margin performance.
-- Revenue concentration is driven by a limited number of top-performing products and dominant product categories.
+- Revenue concentration is driven by a limited number of top performing products and dominant product categories.
 - The Online channel represents the primary revenue driver, significantly outperforming other distribution channels.
 - Sales activity shows seasonal acceleration in Q4, suggesting demand concentration during peak periods.
 - Promotional campaigns contribute to revenue growth, though regular sales remain the dominant contributor.
 - Strategic Interpretation
 - The business demonstrates scalable growth with consistent profitability.
-- Performance is largely volume-driven and concentrated in high-performing channels and product segments.
+- Performance is largely volume driven and concentrated in high performing channels and product segments.
 - Potential Optimization Areas
 - Expand digital channel investment to leverage dominant online performance.
 - Reassess promotional efficiency to improve ROI.

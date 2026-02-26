@@ -59,21 +59,28 @@ Generated visual branding assets (logo) for portfolio presentation purposes.
 **1. Excel – Data Quality Checks**
 
 Before importing the dataset into Power BI, a preliminary data quality check was performed in Excel to ensure consistency and reliability.
-
 The following validations were completed:
-
 Missing values check in key columns (Sales Date, Sales, Cost, Order Quantity, Sales Channel).
 
 Data type verification:
 
-Dates formatted as Date
+- Dates formatted as Date
+- Numeric fields (Sales, Cost, Unit Price) as Decimal Number
+- Quantities as Whole Number
+- Identifiers (Order Number) as Text
+- Logical consistency validation (e.g., no negative quantities or unrealistic values).
+- The objective was to ensure clean, structured input data before building the analytical model in Power BI.
 
-Numeric fields (Sales, Cost, Unit Price) as Decimal Number
+**Power BI – Date Table Creation (Time Intelligence Foundation)**
 
-Quantities as Whole Number
+A dedicated Date Table was created to:
 
-Identifiers (e.g., Order Number) as Text
+- Enable proper time-based filtering
+- Support Year / Quarter / Month hierarchies
+- Allow accurate Year-over-Year (YoY) comparisons
+- Improve model performance and analytical flexibility
 
-Logical consistency validation (e.g., no negative quantities or unrealistic values).
+DAX – Date Table
 
-The objective was to ensure clean, structured input data before building the analytical model in Power BI.
+
+

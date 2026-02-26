@@ -82,7 +82,7 @@ A dedicated Date Table was created to:
 
 DAX – Date Table
 
-</> DAX
+```DAX
 
 DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
 "Year", YEAR([DATE]),
@@ -92,7 +92,7 @@ DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
 "Day of Week", WEEKDAY([Date]),
 "Day Of Week Num", WEEKNUM([Date]),
 "DayName", FORMAT([Date], "dddd"))
-
+```
 This table acts as the central time dimension for the data model and enables Power BI time intelligence functions.
 
 **3.Core Measures – Sales, Profit & Year-over-Year Analysis**

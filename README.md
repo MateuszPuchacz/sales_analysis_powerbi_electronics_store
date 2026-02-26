@@ -82,6 +82,8 @@ A dedicated Date Table was created to:
 
 DAX – Date Table
 
+This table acts as the central time dimension for the data model and enables Power BI time intelligence functions.
+
 ```DAX
 
 DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
@@ -93,55 +95,66 @@ DATES = ADDCOLUMNS(CALENDAR(DATE(2011,12,6), DATE(2014,12,5)),
 "Day Of Week Num", WEEKNUM([Date]),
 "DayName", FORMAT([Date], "dddd"))
 ```
-This table acts as the central time dimension for the data model and enables Power BI time intelligence functions.
 
 **3.Core Measures – Sales, Profit & Year-over-Year Analysis**
 
 The following DAX measures were created to calculate key performance indicators.
 Base Measures
 
--Total Profit = SUM(SalesData[Sales]) - SUM(SalesData[Cost])
--Total Sales = SUM(SalesData[Sales])
 These measures retrieve the previous year's values dynamically based on the current filter context.
 
--Year-over-Year Growth (%)
+```
+Total Profit = SUM(SalesData[Sales]) - SUM(SalesData[Cost])
+Total Sales = SUM(SalesData[Sales])
+```
+
+These measures calculate the percentage growth compared to the previous year, allowing trend performance evaluation.
+```
+Year-over-Year Growth (%)
 Profit_YoY% = 
 VAR __PREV_YEAR = CALCULATE([Total Profit], DATEADD('DATES'[Date], -1, YEAR))
 
 RETURN
 	DIVIDE([Total Profit] - __PREV_YEAR, __PREV_YEAR)
--Sales_YoY% = 
+	
+Sales_YoY% = 
 VAR __PREV_YEAR = CALCULATE([Total Sales], DATEADD('DATES'[Date], -1, YEAR))
 RETURN
 	DIVIDE([Total Sales] - __PREV_YEAR, __PREV_YEAR)
-
-These measures calculate the percentage growth compared to the previous year, allowing trend performance evaluation.
+```
 
 
 **4.Conditional Formatting – KPI Visual Indicators**
 
 To enhance dashboard readability and executive interpretation, visual indicators were added.
+These measures dynamically display visual cues (▲ / ▼ and green/red color), allowing users to instantly understand performance direction.
 
-Profit – Icon & Color
 
+Profit – Icon & Color Logic
+
+RETURN Result
+
+```
 Profit_Icon = 
 VAR PositiveIcon = UNICHAR(9650)
 VAR NegativeIcon = UNICHAR(9660)
 VAR Result = IF([Profit_YoY%]>0, PositiveIcon, NegativeIcon)
 
-RETURN Result
 
 Profit_Icon_Color = IF([Profit_YoY%] > 0, "Green", "Red")
+```
 
-Sales – Icon & Color
+Sales – Icon & Color Logic
 
+These measures dynamically display visual cues (▲ / ▼ and green/red color), allowing users to instantly understand performance direction.
+
+RETURN Result
+```
 Sales_Icon = 
 VAR PositiveIcon = UNICHAR(9650)
 VAR NegativeIcon = UNICHAR(9660)
 VAR Result = IF([Sales_YoY%]>0, PositiveIcon, NegativeIcon)
 
-RETURN Result
-
 Sales_Icon_Color = IF([Sales_YoY%] > 0, "Green", "Red")
+```
 
-These measures dynamically display visual cues (▲ / ▼ and green/red color), allowing users to instantly understand performance direction.

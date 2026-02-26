@@ -54,3 +54,26 @@ Data modeling (relationships, star schema structure), DAX measure development, K
 Generated visual branding assets (logo) for portfolio presentation purposes.
 
 
+### Data Preparation & Modeling
+
+**1. Excel – Data Quality Checks
+
+Before importing the dataset into Power BI, a preliminary data quality check was performed in Excel to ensure consistency and reliability.
+
+The following validations were completed:
+
+Missing values check in key columns (Sales Date, Sales, Cost, Order Quantity, Sales Channel).
+
+Data type verification:
+
+Dates formatted as Date
+
+Numeric fields (Sales, Cost, Unit Price) as Decimal Number
+
+Quantities as Whole Number
+
+Identifiers (e.g., Order Number) as Text
+
+Logical consistency validation (e.g., no negative quantities or unrealistic values).
+
+The objective was to ensure clean, structured input data before building the analytical model in Power BI.

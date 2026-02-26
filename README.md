@@ -23,13 +23,13 @@ The dataset consists of two primary tables: a transactional sales table and a pr
 
 ### Sales (Fact Table)
 
-Contains transaction-level sales records.  
+Contains transaction level sales records.  
 Each row represents a single order.
 
 Key fields:
 - Order Number – unique transaction identifier  
 - Sales Date – transaction date  
-- Sales Channel – distribution channel (Online, In-Store, Wholesale)  
+- Sales Channel – distribution channel (Online, Store, Wholesale)  
 - Productindex – product reference key  
 - Order qty – quantity sold  
 - Unit price – selling price per unit  
@@ -84,7 +84,7 @@ Data type verification:
 
 A dedicated Date Table was created to:
 
-- Enable proper time-based filtering
+- Enable proper time based filtering
 - Support Year / Quarter / Month hierarchies
 - Allow accurate Year-over-Year (YoY) comparisons
 - Improve model performance and analytical flexibility

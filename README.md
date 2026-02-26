@@ -9,6 +9,7 @@ Rather than focusing purely on visuals, the report was structured to answer key 
 ## 📑 Table of Content
 - [Data Source](#-data-source)
 - [Data Preparation & Modeling](#-data-preparation--modeling)
+- [ER Diagram](#-er-diagram)
 - [Exploratory Business Analysis (Power BI)](#-exploratory-business-analysis-power-bi)
 - [Business Insights & Conclusions](#-business-insights--conclusions)
 - [Business Recommendations](#-business-recommendations)

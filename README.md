@@ -160,6 +160,53 @@ Sales_Icon_Color = IF([Sales_YoY%] > 0, "Green", "Red")
 
 Exploratory Business Analysis (Power BI)
 
+The visualization was conducted directly in Power BI using interactive dashboards.
+The goal was to identify revenue patterns, profitability drivers, regional performance, and channel efficiency.
 
 
+🧾 Page 1 – Sales Overview
+
+![Dashboard Page 1](./images/Dashboard_page1.png)
+
+Analysis Focus
+
+- Total Sales and Total Profit performance
+- Year-over-Year growth comparison
+- Monthly revenue trend
+- Weekly sales distribution
+- Top-performing products
+- Brand and category contribution
+
+Key Insights
+
+- Revenue reached 23.8M, reflecting a 39% YoY increase.
+- Profit growth aligns with revenue growth, indicating stable margins.
+- October and November show peak seasonal performance.
+- A small number of products drive a disproportionate share of total revenue.
+- Computers and Cameras represent the dominant product categories.
+
+🌍 Page 2 – Regional & Channel Analysis
+
+![Dashboard Page 2](./images/Dashboard_page2.png)
+
+Analysis Focus
+
+- Sales distribution by state
+- Revenue contribution by promotion type
+- Channel-level sales and profit breakdown
+
+Key Insights
+
+- Sales concentration is geographically clustered in high-density states.
+- Regular Sales significantly outperform promotional campaigns.
+- Online channel generates the highest revenue share.
+- Profit distribution mirrors channel revenue structure, confirming consistent margin behavior.
+
+📌 Summary of Exploratory Findings
+
+- Business growth is consistent and scalable.
+- Revenue expansion is driven primarily by channel performance and product concentration.
+- Margin structure remains stable across periods.
+- Digital sales channel represents the dominant revenue stream.
+- Seasonal peaks indicate demand concentration in Q4.
 

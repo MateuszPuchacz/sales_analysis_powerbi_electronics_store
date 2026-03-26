@@ -2,8 +2,6 @@
 Power BI sales performance dashboard using custom data model, DAX measures (including variables), Date Table and interactive visual design for retail and online sales analytics.
 ## 🎯 Project Goal
 
-## 🎯 Project Goal
-
 This project shows how retail sales data can be transformed into clear, actionable business insights using Power BI.
 The analysis focuses on understanding sales performance, product profitability, and customer behavior to support better business decisions. It reflects a real-world analytical approach used in retail environments, from data preparation to final dashboard creation.
 

@@ -228,9 +228,6 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 
 ## 📝 Business Insights & Conclusions
 
-
-## 📝 Business Insights & Conclusions
-
 - The analysis highlights a strong and scalable business model supported by consistent growth and stable profitability.
 - Revenue reached 23.8M, reflecting a solid 39% Year-over-Year increase. Profit growth remains aligned with revenue, confirming controlled and sustainable margin performance.
 - Sales are heavily concentrated in a limited number of top-performing products and categories. While this drives strong results, it also introduces a level of dependency on key assortment segments.

@@ -255,4 +255,4 @@ The goal was to identify revenue patterns, profitability drivers, regional perfo
 - Increase investment in the Online channel to support further growth  
 - Refine promotional strategy to improve efficiency and ROI  
 - Reduce dependency on top performing products by expanding the assortment  
-- Identify growth opportunities in underperforming regions based on sales data  
+- Identify growth opportunities in underperforming regions based on sales data sets 
